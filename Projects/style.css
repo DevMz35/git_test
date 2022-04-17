@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2? family= Fredoka:wght@500;600 & family= Open+Sans:ital,wght@0,600;0,700;0,800;1,800 & family= Raleway:wght@400;600 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(39, 104, 148);
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+
+.relogio-digital {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.rel{
+    margin-top: 10px;
+}
+
+#relogio{
+    text-align: center;
+    font-size: 26px;
+}
+
+.rel button{
+    width: 100px;
+    padding: 10px;
+    background: rgb(230, 45, 174);
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;;
+}
