@@ -11,24 +11,33 @@
         <h1 id="titulo">Calculadora</h1>
 
         <div class="calculadora-matematica">
-            <form action="" class="caluladora">
-                <input type="text" name="calculadora" id="calcula">
-                    <butto id="n-0">0</butto>
-                    <butto id="n-1">1</butto>
-                    <butto id="n-2">2</butto>
-                    <butto id="n-3">3</butto>
-                    <butto id="n-4">4</butto>
-                    <butto id="n-5">5</butto>
-                    <butto id="n-6">6</butto>
-                    <butto id="n-7">7</butto>
-                    <butto id="n-8">8</butto>
-                    <butto id="n-9">9</butto>
-                    <butto id="adicao">+</butto>
-                    <butto id="subtracao">-</butto>
-                    <butto id="divisao">/</butto>
-                    <butto id="multiplicar">*</butto>
-            </form>
+            <div class="calculadora">
+                <div class="ecra-da-calculadora">
+                <div id="ecra-de-calculo" min="0" max="19999999999999"></div>
+            </div>
+                <div class="btn">
+                    <button  id="n-1">1</button>
+                    <button  id="clear">Clear</button>
+                    <button class="operador" id="subtrair"  data-operador>-</button>
+                    <button  id="n-2" > 2 </button>
+                    <button id="n-3" > 3 </button>
+                    <button class="operador" id="multiplicar">x</button>
+                    <button id="n-4" >4</button>
+                    <button id="n-5" >5</button>
+                    <button class="operador" id="dividir" >/</button>
+                    <button id="n-6" >6</button>
+                    <button id="n-7" >7</button>
+                    <button class="operador" id="adicao" >+</button>
+                    <button id="n-8" >8</button>
+                    <button id="n-9" >9</button>
+                    <button id="igual">=</button>
+                    <button id="virgula" >.</button>
+                    <button id="zero" >0</button>
+        
+                </div>
+            </div>
         </div>
     </div>
+    <script src="/Relogio/Calculadora/js/index.js"></script>
 </body>
 </html>

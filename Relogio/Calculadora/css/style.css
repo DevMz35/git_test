@@ -6,10 +6,84 @@
     padding: 0;
 }
 
+body{
+    background-color: rgb(66, 110, 66);
+}
+
 .calculadora-matematica{
     width: 600px;
     height: 500px;
     margin: 50px auto;
-    background-color: rgb(25, 136, 108);
 }
 
+.calculadora{
+    width: 400px;
+    height: 580px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(17, 38, 39);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.btn button{
+    width: 120px;
+    padding: 15px;
+    background-color: rgb(143, 148, 147);
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    font-size: 36px;
+    cursor: pointer;
+   color:  #ffff;
+   margin-bottom: 10px;
+}
+
+.operador{
+    background-color: rgb(87, 108, 202);
+}
+
+#ecra-de-calculo{
+    width: 360px;
+    padding: 10px 25px 10px 15px;
+    text-align: right;
+    margin: 20px 2px 20px 2px;
+    border: none;
+    font-size: 52px;
+    overflow: hidden;
+    position: absolute;
+    top: -20px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+.ecra-da-calculadora{
+    width: 390px ;
+    height: 100px;
+    background-color: rgb(182, 202, 198);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#clear, #del {
+    background-color: rgb(194, 9, 138);
+}
+
+#igual, #virgula{
+    background-color: rgb(214, 66, 12);
+}
+
+#virgula, #zero{
+    width: 190px;
+}
